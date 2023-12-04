@@ -3,7 +3,7 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("3");
+        Console.WriteLine("Введіть значення: ");
         double celsius = double.Parse(Console.ReadLine());
         double fahrenheit = ConvertCelsiusToFahrenheit(celsius);
         Console.WriteLine($"Температура в градусах Фаренгейта: {fahrenheit} *F");
